@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "DarkSoulsFont";
+  src: url(fonts/OptimusPrinceps.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: url(images/aldea-medieval.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#text {
+  background-color: #594336;
+  /*background-color: #025373; dragon*/
+  /*background-color: #04050D; cueva*/
+  /*background-color: #365902; slime*/
+  /*background-color: #011C26; colmillos*/
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+
+  margin: 15px;
+  box-shadow: 0px 0px 10px 0px #000;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#game {
+  max-width: 800px;
+  max-height: 700px;
+  backdrop-filter: blur(50px);
+  color: #fff;
+  margin: 30px auto 0px auto;
+  padding: 10px;
+
+  font-family: "DarkSoulsFont";
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+#controls,
+#stats {
+  padding: 5px;
+justify-self: center;
+  font-weight: bold;
+}
+
+#stats {
+  color: #020202;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.stat{
+  margin-left: 20px;
+}
+
+#button1, #button2, #button3{
+  padding: 10px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  background-color: #c70d0d;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+  color: #FFF;
+  background-color: #0F0901;
+  background: linear-gradient(#020202, #373739);
+  border: 0px solid #FFE6BF;
+  margin-left: 10px;
+
+  font-family: "DarkSoulsFont";
+  font-size: 15px;
+  box-shadow: 0px 0px 10px 0px #000;
+  transition: transform 0.2s ease-in-out, background-color 0.3s
+}
+
+/*De aquí voy a empezar a editar los fondos*/
+#all{
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  justify-content: center;
+  align-content: center;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+  transition: ease-in-out;
+  transition-duration: 200ms;
+  transform: scale(1.1);
+}
